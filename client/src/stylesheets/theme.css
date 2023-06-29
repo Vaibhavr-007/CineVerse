@@ -1,0 +1,64 @@
+:root {
+    --colour-primary: #002E2A;
+    --colour-secondary: #e6b412;
+}
+
+.bg-primary {
+    background-color: var(--colour-primary);
+}
+.bg-photo{
+    background-image: url("../../../3658607.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animateBackground 8s infinite;
+}
+@keyframes animateBackground {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 100% 0%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+.bg-secondary {
+    background-color: var(--colour-secondary);
+}
+
+.bg-error{
+    background-color: #ff0000;
+}
+
+.bg-warning{
+    background-color: #a2840e;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.text-primary {
+    color: var(--colour-primary) !important;
+}
+
+.text-secondary {
+    color: var(--colour-secondary);
+}
+
+.text-black{
+    color: #000;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.border-primary {
+    border-color: var(--colour-primary);
+}
+
+.border-secondary {
+    border-color: var(--colour-secondary);
+}
